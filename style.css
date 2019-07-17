@@ -1,0 +1,393 @@
+body{
+    background-color: #c896a5;
+    
+}
+/* heading */
+
+.uno{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:100%;
+    font-family: verdana;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    margin-left: 0px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.nav-links a{
+    margin-right: 30px; 
+
+}
+    
+.nav-links img{
+    margin-right: 30px;
+}
+.nav-button{
+    display: flex;
+    
+}
+
+.button{
+    border-radius: 5px;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid rgb(182, 175, 157);
+    padding: 10px 35px;
+    color:#2A2D35;
+}
+
+.button1{
+    border-radius: 5px;
+    background-color: #6fcfdb;
+    border: 1px solid rgb(180, 221, 226);
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+}
+
+.uno:hover{
+    background-color: white;
+    padding: 15px; 
+    margin-right: -7px;
+    margin-left: -7px;
+    margin-top: -10px;       
+}
+
+
+.button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #6fcfdb;
+    cursor: pointer;
+}
+
+.link1:hover{
+    color: #6fcfdb;
+}
+.link2:hover{
+    color: #fd9786;
+}
+.link3:hover{
+    color: #3ab16a;
+}
+.link4:hover{
+    color: #1c55c5;
+}
+/* section 1*/
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin-left:10px;
+    margin-right:100px;  
+}
+
+#sub{
+    padding: 150px;
+}
+.main{
+    margin-left: 150px;
+    position: relative;
+    bottom: 145px;
+    top:-145px;
+}
+.paragraph{
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 140%;
+    color:#2A2D35;
+    margin-left: -70px;
+}
+
+.video-ad{
+    width: 70%;  
+}
+
+#video{
+    width: 100%;
+    height: 114%;
+    
+}
+/*section 2*/
+.parts{
+    display: flex;
+    text-align: left;
+    color:#2A2D35;
+    font-family: Verdana;
+    height: 70vh;
+    margin-right: -7px;
+    margin-left: -7px;
+   
+    
+}
+.introduction{
+    color:white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;  
+  
+}
+.extra{
+    
+    font-size: 20px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.hosting{
+    border-style: hidden;
+    background-color: #fed24a;
+    border-width: 5px;
+}
+.soapbox{
+    border-style: hidden;
+    background-color: #51c29f;
+    border-width: 5px;
+  
+}
+.video-skill{
+    border-style: hidden;
+    background-color:#3ea9f5;
+    border-width: 5px;
+
+}
+.ipbutton{
+    border-radius: 5px;
+    background-color:none;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 35px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.pic{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+.so{
+    margin-bottom: 9px;
+}
+
+.link{
+    color: #2A2D35;
+    font-size: 20px;
+}
+.ipbutton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+/*section 3*/
+.sponsors{
+    background-color: white;
+    border-style: hidden;
+    display: flex;
+    padding:100px;
+    height:50vh;
+    display: flex;
+    align-content: space-between;
+    margin-right: -7px;
+    margin-left: -7px;
+}
+.image{
+    display: initial;
+    
+}
+.img{
+    width: 150px;
+    margin-right: 82px;
+    margin-left: 0px;
+    margin-top: -30px;
+ }
+      
+
+.intro{
+    border-style: hidden;
+    color:gray;
+    width: 190px;
+    font-size: 140%;
+    margin-top: -5px;
+    margin-left: -40px;
+    margin-right: 40px;
+
+}
+/* section 4*/
+.actualities{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: -100px;
+    margin-left:-20px;
+    margin-right:-20px;
+  
+}
+.chap{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.demo{
+   width: 100%;
+   height: 35%;
+}
+.demohead{
+    color:#2A2D35;
+    font-family: Verdana;
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+}
+.demopara{
+    color:#2A2D35;
+    font-family: Verdana;
+    line-height: 1.8;
+    display: flex;
+    text-align: left;
+}
+
+.demolink{
+    color:#3ea9f5;
+}
+.demo:hover{    
+    opacity: 0.5;
+    background-color:blue;
+ 
+}
+/*section 5*/
+.final{
+    background-color: #efefef;
+    height: 15vh;
+    margin-left: -70px;
+    margin-right: -70px;
+    margin-top: -70px;
+   
+  
+}
+.finalp{
+    color:#2A2D35;
+    font-family: Verdana;
+    text-align: center; 
+    font-size: 18px;
+
+}
+.finala{
+    color: grey;
+    font-family: Verdana;
+    font-size: 18px;
+}
+/*footer*/
+
+/*part 1*/
+.introfooter{
+    background-color:#2a2d35;
+    color: white;
+    font-family: Verdana;
+    height: 60vh;
+    margin-right: -8px;
+    margin-left: -8px; 
+    margin-top: -12px;
+    display: flex;
+    align-items: center;   
+}
+
+.foothd{ 
+    font-size:25px;
+    line-height: 1.8;
+    border-style: hidden;
+    width:400px;   
+}
+.footp{ 
+    font-size: 15px;
+    line-height: 1.8;
+    border-style: hidden;
+    width:302px; 
+}
+.footlink{
+    color:#3ab16a;
+    text-decoration: none;
+}
+#center{
+    margin-left: 100px;
+    border-right: 1px solid grey;   
+}
+.footlink:hover{
+    text-decoration: underline;  
+}
+/*part 2*/
+.footmarketing{
+    line-height: 0.8;
+    margin-left: 50px;
+}
+.infop{
+    color: grey;
+    font-family: Verdana;
+    font-size: 15px;
+}
+.infolink{
+    display: flex;
+    line-height: 1.8;
+    color:white;
+    text-decoration: none;
+}
+.blue{
+    color: #1c55c5;
+}
+.infolink:hover{
+    font-family: Tahoma;
+}
+/*part 3*/
+.footsoap{
+    line-height: 0.8;
+    margin-left: 50px;
+}
+.red{
+    color: #fd9786;  
+}
+/*part 4*/
+.footcompany{
+    line-height: 0.8;
+    margin-left: 60px;
+    
+}
+
+/*part 5*/
+.footsupport{
+    line-height: 0.8;
+    margin-left: 60px;
+    margin-top: -24px;
+}
+.under:hover{
+    text-decoration: underline;
+    font-family: Verdana;
+}
+/*final part*/
+.finalfoot{
+    background-color:#2a2d35;
+    color: white;
+    font-family: Verdana;
+    height: 15vh;
+    margin-right: -8px;
+    margin-left: -8px; 
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+.fflink{
+    color: grey
+}
+.fflink:hover{
+    color:#3ab16a;
+}
